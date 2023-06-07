@@ -1,0 +1,31 @@
+digraph linkedlist {
+      nodesep = 0.8;
+      noderank = 0.5;
+      
+      {node [style = invis, label = ""] ; cx_100;}
+      
+      {rank=same; 20; 120; cx_100;}
+      {rank=same; 15; 25; }
+      {rank=same; 40; 150; }
+      
+      
+      100 -> 20;
+      100 -> 120; 
+      20 -> 15;
+      20 -> 25;
+      120 -> 40;
+      120 -> 150;
+       
+     {edge [style= invis];
+     
+     //distance the nodes
+     
+     100 = cx_100;
+     20 -> cx_100 -> 120;
+     
+     //
+     15:e -> 25:w;
+     40:e -> 150:w;
+     }
+     
+}
