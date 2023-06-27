@@ -4,5 +4,5 @@ Disctiption: IN this assignment a binary search tree is created by using the sof
 
 |   #   | File            | Description             |
 | :---: | :--------------- | ---------------------- |
-|   1   | [BST file]()     | This is the dot file   |
-|   2   | [ReadMe]()       | Bro just read this     |
+|   1   | [BST file](BST.dot)     | This is the dot file   |
+|   2   | [BST png](BST.png)       | The visual represntation of the dot file   |
